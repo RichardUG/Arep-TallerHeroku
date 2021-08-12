@@ -55,7 +55,7 @@ java -version
 > 
 
 ### Despliegue directo en heroku
-> Para desplegar el programa en Heroku directamente desde el servicio de ```Heroku``` damos clic al siguiente link.
+> Para desplegar el programa directamente desde el servicio de ```Heroku``` damos clic al siguiente link.
 > 
 > [![](/img/deploy.PNG)](https://tallerherokuurrea.herokuapp.com/hello)
 
