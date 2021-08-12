@@ -21,15 +21,20 @@ java -version
 ### Ejecución del proyecto desde linea de comandos
 > ### Instalación
 >
-> Clonamos este repositario desde cmd, con el siguiente comando
+> Clonamos este repositario desde ```cmd```, con el siguiente comando
 >
 > ```
 > git clone https://github.com/RichardUG/Arep-TallerHeroku
 > ```
 >
-> Si nos encontramos en un dispositivo ```linux``` nos dirigimos al archivo procfile y reemplazamos el contenido por el siguiente texto
+> Si nos encontramos en un dispositivo ```linux``` nos dirigimos al archivo ```procfile``` y reemplazamos el contenido por el siguiente texto
 > ```
 > web: java $JAVA_OPTS -cp 'target/classes:target/dependency/*' edu.escuelaing.arep.designprimer.SparkWebApp
+> ```
+> 
+> Si nos encontramos en un dispositivo ```windows``` nos dirigimos al archivo procfile y reemplazamos el contenido por el siguiente texto
+> ```
+> web: java -cp target/classes;target/dependency/* edu.escuelaing.arep.designprimer.SparkWebApp
 > ```
 
 
