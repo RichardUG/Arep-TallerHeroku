@@ -50,16 +50,13 @@ java -version
 > heroku local web
 > ```
 > 3. Ahora tras haber realizado los pasos anteriores, podemos ver el despliegue de nuestro proycto yendo al siguiente link:
-> ```
+> 
 > [http://localhost:5000/hello](http://localhost:5000/hello)
-> ```
+> 
 
-
-
-
-Despues de ejecutarlo saldra este texto, el cual indica que las pruebas que se ejecutaron al interior del programa, fueron ejecutadas de manera exitosa.
-![img](img/testpackage.PNG)
-
+### Despliegue directo en heroku
+> Para desplegar el programa en Heroku directamente desde el servicio de ```Heroku``` damos clic al siguiente link.
+> ![/img/deploy.PNG](https://tallerherokuurrea.herokuapp.com/hello)
 
 ## Construido con
 
