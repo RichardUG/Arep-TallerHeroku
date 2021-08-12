@@ -58,7 +58,7 @@ java -version
 > Para desplegar el programa en Heroku directamente desde el servicio de ```Heroku``` damos clic al siguiente link.
 > 
 > [![Heroku](Assets/Images/heroku.jpg)](https://letssupport.herokuapp.com/app/login.xhtml)
-> [![Heroku](/img/deploy.PNG)](https://tallerherokuurrea.herokuapp.com/hello)
+> [![](/img/deploy.PNG)](https://tallerherokuurrea.herokuapp.com/hello)
 
 ## Construido con
 
