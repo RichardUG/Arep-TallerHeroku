@@ -36,6 +36,25 @@ java -version
 > ```
 > web: java -cp target/classes;target/dependency/* edu.escuelaing.arep.designprimer.SparkWebApp
 > ```
+> 
+> ### Prueba
+> 
+> Ya habiendo realizado la configuracción correspondiente dependiendo de nuestro sistema operativo, podemos desplegar con heroku localmente, siguierndo los siguientes pasos :
+> 
+> 1. Ejecutamos el siguiente comando, para que ```mvn``` limpie los modulos que estan ejecutados o escritos y que inicie la ejecución de nuestro proyecto desde 0
+> ```
+> mvn clean install
+> ```
+> 2. Ahora ejecutamos el siguiente comando para realizar el despliegue en heroku desde una versión local de nuestro dispositivo
+> ```
+> heroku local web
+> ```
+> 3. Ahora tras haber realizado los pasos anteriores, podemos ver el despliegue de nuestro proycto yendo al siguiente link:
+> ```
+> [http://localhost:5000/hello](http://localhost:5000/hello)
+> ```
+
+
 
 
 Despues de ejecutarlo saldra este texto, el cual indica que las pruebas que se ejecutaron al interior del programa, fueron ejecutadas de manera exitosa.
